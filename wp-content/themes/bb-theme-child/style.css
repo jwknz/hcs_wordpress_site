@@ -1,0 +1,40 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */ 
+
+.appalerts h4 {color:black !important;}
+.appalerts h5 {color: #cf2027;margin: 0px;margin-top: -10px;margin-bottom: 16px;font-weight: 600;}
+.appalerts p {font-size:16px !important;margin-bottom:-10px;color:black;}
+.appalerts .card {padding-bottom:20px;padding-top:10px;margin-bottom:10px}
+.appalerts .card:last-child {border-bottom: 0px;}
+
+div#container { 
+  max-height: 500px;
+  overflow-y: scroll;
+  }
+
+div#container a.button {
+    background: #d12127 !important;
+    color: white !important;
+    padding-top: 10px !important;
+    padding-right: 30px !important;
+    padding-bottom: 10px !important;
+    padding-left: 30px !important;
+    text-decoration: none !important;
+    border-radius: 100px !important;
+    border: 0px !important;
+    transition: 0.5s ease all;
+}
+
+div#container a.button:hover {
+    background: #eeeeee !important;
+    color: #d12127 !important;
+}
