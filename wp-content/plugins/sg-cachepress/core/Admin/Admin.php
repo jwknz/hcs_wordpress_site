@@ -141,13 +141,9 @@ class Admin {
 			true
 		);
 
-		$php_version_info = Htaccess::get_instance()->get_php_version();
-
 		$data = array(
 			'rest_base'          => untrailingslashit( get_rest_url( null, Rest::REST_NAMESPACE ) ),
 			'home_url'           => Helper::get_site_url(),
-			'php_version'        => $php_version_info['version'],
-			'is_php_changed'     => $php_version_info['has_been_changed'],
 			'is_cron_disabled'   => Helper::is_cron_disabled(),
 			'is_avalon'          => Helper::is_avalon(),
 			'modules'            => $this->modules->get_active_modules(),
@@ -158,10 +154,11 @@ class Admin {
 			'is_shop'            => is_plugin_active( 'woocommerce/woocommerce.php' ) ? 1 : 0,
 			'localeSlug'         => join( '-', explode( '_', \get_user_locale() ) ),
 			'wp_nonce'           => wp_create_nonce( 'wp_rest' ),
+			'is_uploads_writable' => (int) Helper::check_upload_dir_permissions(),
 			'config'             => array(
 				'assetsPath' => SiteGround_Optimizer\URL . '/assets/images',
 			),
-			'network_settings'   => array(
+			'network_settings'    => array(
 				'is_network_admin' => intval( is_network_admin() ),
 				'is_multisite'     => intval( is_multisite() ),
 			),

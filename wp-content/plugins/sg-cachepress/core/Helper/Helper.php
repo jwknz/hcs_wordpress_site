@@ -272,4 +272,46 @@ class Helper {
 	public function add_plugin_info_comment() {
 		echo '<!-- Optimized by SG Optimizer plugin version - ' . \SiteGround_Optimizer\VERSION . ' -->';
 	}
+
+	/**
+	 * Checks what are the upload dir permissions.
+	 *
+	 * @since  5.7.11
+	 *
+	 * @return boolean True/false
+	 */
+	public static function check_upload_dir_permissions() {
+		// If the function does not exist the file permissions are correct.
+		if ( ! function_exists( 'fileperms' ) ) {
+			return true;
+		}
+
+		// Check if directory permissions are set accordingly.
+		if ( 700 <= intval( substr( sprintf( '%o', fileperms( self::get_uploads_dir() ) ), -3 ) ) ) {
+			return true;
+		}
+
+		// Return false if permissions are below 700.
+		return false;
+	}
+
+	/**
+	 * Get WordPress uploads dir
+	 *
+	 * @since  5.7.11
+	 *
+	 * @return string Path to the uploads dir.
+	 */
+	public static function get_uploads_dir() {
+		// Get the uploads dir.
+		$upload_dir = wp_upload_dir();
+
+		$base_dir = $upload_dir['basedir'];
+
+		if ( defined( 'UPLOADS' ) ) {
+			$base_dir = ABSPATH . UPLOADS;
+		}
+
+		return $base_dir;
+	}
 }

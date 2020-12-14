@@ -419,8 +419,7 @@ class Images_Optimizer_Webp {
 	 * @return bool Tru on success, false on failure.
 	 */
 	public function delete_webp_files() {
-		$upload_dir = wp_upload_dir();
-		$basedir = $upload_dir['basedir'];
+		$basedir = Helper::get_uploads_dir();
 		exec( "find $basedir -name '*.webp' -type f -print0 | xargs -L 500 -0 rm", $output, $result );
 
 		self::reset_image_conversion_status();

@@ -212,6 +212,12 @@ Our plugin uses a cookie in order to function properly. It does not store person
 
 == Changelog ==
 
+= Version 5.7.11 =
+* Improved CloudFlare Optimization
+* Add CloudFlare multisite support
+* Improved RevSlider support
+* Add uploads permissions check
+
 = Version 5.7.10 =
 * Revert to old HTML Minification
 

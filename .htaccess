@@ -108,6 +108,7 @@ RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 # Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -117,3 +118,10 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 AddHandler application/x-httpd-php74 .php .php5 .php4 .php3
+
+# BEGIN ShortPixelWebp
+# The directives (lines) between "BEGIN ShortPixelWebp" and "END ShortPixelWebp" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END ShortPixelWebp

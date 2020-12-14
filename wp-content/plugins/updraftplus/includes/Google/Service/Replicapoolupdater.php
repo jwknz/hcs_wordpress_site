@@ -50,7 +50,7 @@ class Google_Service_Replicapoolupdater extends Google_Service
    *
    * @param Google_Client $client
    */
-  public function __construct(Google_Client $client)
+  public function __construct(UDP_Google_Client $client)
   {
     parent::__construct($client);
     $this->servicePath = 'replicapoolupdater/v1beta1/projects/';

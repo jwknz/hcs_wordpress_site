@@ -167,9 +167,10 @@ class Rest_Helper_Cache extends Rest_Helper {
 	 */
 	public function test_cache( $request ) {
 		// Get the url.
-		$url = $this->validate_and_get_option_value( $request, 'url' );
+		$url           = $this->validate_and_get_option_value( $request, 'url' );
+		$is_cloudflare = $this->validate_and_get_option_value( $request, 'isCloudflare', false );
 		// Check if the url is cached.
-		$is_cached = Supercacher::test_cache( $url );
+		$is_cached = Supercacher::test_cache( $url, true, (bool) $is_cloudflare );
 		// Send response to the app.
 		wp_send_json_success( array( 'cached' => $is_cached ) );
 	}

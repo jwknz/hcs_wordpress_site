@@ -1,0 +1,475 @@
+0000.002 (0) Opened log file at time: Sun, 06 Dec 2020 19:32:05 +0000 on https://hamiltonchristian.school.nz
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.41.0 WP: 5.5.3 PHP: 7.4.11 (cgi-fcgi, Linux sm27.siteground.biz 3.12.18-clouder0 #1 SMP Tue Oct 9 18:14:47 EEST 2018 x86_64) MySQL: 5.6.40-84.0-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 17.8M | 22M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 (0) Free space on disk containing Updraft's temporary directory: 453564.4 MB
+0000.028 (0) Deleting old log file: log.03e86a84ddb1.txt
+0000.030 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB:  (schedule: fortnightly)
+0000.030 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.033 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1607030222, seconds_ago=252903)
+0000.034 (0) Set semaphore last lock (fd) time to 2020-12-06 19:32:05
+0000.035 (0) Semaphore lock (fd) complete
+0000.037 (0) Backup run: resumption=0, nonce=47f0b4d0a411, file_nonce=47f0b4d0a411 begun at=1607283125 (0s ago), job type=backup
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1607283425) in case this run gets aborted
+0000.065 (0) Checking if we have a zip executable available
+0000.066 (0) Testing: /usr/bin/zip
+0000.072 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.073 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.074 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.074 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.074 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.081 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.081 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.096 (0) Working binary zip found: /usr/bin/zip
+0000.097 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.097 (0) Creation of backups of directories: beginning
+0000.099 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0001.142 (0) Total entities for the zip file: 2143 directories, 12723 files (0 skipped as non-modified), 179.4 MB
+0001.146 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.150 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.153 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.155 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.158 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.160 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.163 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.165 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.167 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.170 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.171 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.9 MB, 12723 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.439 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: size is now: 6.60 MB
+0002.444 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1100 files added (on-disk size: 6798.5 KB)
+0002.448 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1200 files added (on-disk size: 6798.5 KB)
+0002.452 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1300 files added (on-disk size: 6798.5 KB)
+0002.456 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1400 files added (on-disk size: 6798.5 KB)
+0002.460 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1500 files added (on-disk size: 6798.5 KB)
+0002.465 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1600 files added (on-disk size: 6798.5 KB)
+0002.469 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1700 files added (on-disk size: 6798.5 KB)
+0002.503 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1800 files added (on-disk size: 6798.5 KB)
+0002.506 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 1900 files added (on-disk size: 6798.5 KB)
+0002.508 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2000 files added (on-disk size: 6798.5 KB)
+0002.509 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 12723 files batched, 1001 (2002) added so far); re-opening (prior size: 6798.5 KB)
+0003.467 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: size is now: 9.20 MB
+0003.471 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2100 files added (on-disk size: 9431 KB)
+0003.474 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2200 files added (on-disk size: 9431 KB)
+0003.476 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2300 files added (on-disk size: 9431 KB)
+0003.479 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2400 files added (on-disk size: 9431 KB)
+0003.481 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2500 files added (on-disk size: 9431 KB)
+0003.484 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2600 files added (on-disk size: 9431 KB)
+0003.486 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2700 files added (on-disk size: 9431 KB)
+0003.489 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2800 files added (on-disk size: 9431 KB)
+0003.492 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 2900 files added (on-disk size: 9431 KB)
+0003.494 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3000 files added (on-disk size: 9431 KB)
+0003.495 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.9 MB, 12723 files batched, 1001 (3003) added so far); re-opening (prior size: 9431 KB)
+0004.329 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: size is now: 12.50 MB
+0004.334 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3100 files added (on-disk size: 12757 KB)
+0004.337 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3200 files added (on-disk size: 12757 KB)
+0004.339 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3300 files added (on-disk size: 12757 KB)
+0004.342 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3400 files added (on-disk size: 12757 KB)
+0004.345 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3500 files added (on-disk size: 12757 KB)
+0004.347 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3600 files added (on-disk size: 12757 KB)
+0004.350 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3700 files added (on-disk size: 12757 KB)
+0004.353 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3800 files added (on-disk size: 12757 KB)
+0004.356 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 3900 files added (on-disk size: 12757 KB)
+0004.359 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4000 files added (on-disk size: 12757 KB)
+0004.359 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.7 MB, 12723 files batched, 1001 (4004) added so far); re-opening (prior size: 12757 KB)
+0005.949 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: size is now: 18.80 MB
+0005.953 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4100 files added (on-disk size: 19220.3 KB)
+0005.957 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4200 files added (on-disk size: 19220.3 KB)
+0005.959 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4300 files added (on-disk size: 19220.3 KB)
+0005.962 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4400 files added (on-disk size: 19220.3 KB)
+0005.964 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4500 files added (on-disk size: 19220.3 KB)
+0005.966 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: 4600 files added (on-disk size: 19220.3 KB)
+0005.968 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (16.8 MB, 679 (4683) files added so far); last ratio: 0.3377; re-opening (prior size: 19220.3 KB)
+0007.036 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip.tmp: size is now: 29.80 MB
+0007.038 (0) Zip size is at/near split limit (29.8 MB / 25 MB) - bumping index (from: 0)
+0007.314 (0) Created plugins zip (0) - 30516.8 KB in 6.9 s (4403.9 KB/s) (checksums: sha1: 59e15997123ad1fc85e2564c9715ed1fd100a2af, sha256: dbb950e64c27b50e2b87bf36d3c9c6fd474bb2152d4d6bc5d6013ce48ee4a146)
+0007.317 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0007.320 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0007.323 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0007.326 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0007.329 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0007.333 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0007.337 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0007.339 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0007.342 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0007.345 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0007.347 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.1 MB, 12723 files batched, 1001 (5684) added so far); re-opening (prior size: 0 KB)
+0008.207 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: size is now: 4.50 MB
+0008.209 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5700 files added (on-disk size: 4617.4 KB)
+0008.212 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5800 files added (on-disk size: 4617.4 KB)
+0008.214 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 5900 files added (on-disk size: 4617.4 KB)
+0008.217 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6000 files added (on-disk size: 4617.4 KB)
+0008.220 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6100 files added (on-disk size: 4617.4 KB)
+0008.222 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6200 files added (on-disk size: 4617.4 KB)
+0008.225 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6300 files added (on-disk size: 4617.4 KB)
+0008.227 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6400 files added (on-disk size: 4617.4 KB)
+0008.230 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6500 files added (on-disk size: 4617.4 KB)
+0008.233 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6600 files added (on-disk size: 4617.4 KB)
+0008.235 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.7 MB, 12723 files batched, 1001 (6685) added so far); re-opening (prior size: 4617.4 KB)
+0009.131 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: size is now: 8.50 MB
+0009.133 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6700 files added (on-disk size: 8719 KB)
+0009.136 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6800 files added (on-disk size: 8719 KB)
+0009.139 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 6900 files added (on-disk size: 8719 KB)
+0009.141 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7000 files added (on-disk size: 8719 KB)
+0009.144 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7100 files added (on-disk size: 8719 KB)
+0009.146 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7200 files added (on-disk size: 8719 KB)
+0009.150 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7300 files added (on-disk size: 8719 KB)
+0009.154 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7400 files added (on-disk size: 8719 KB)
+0009.157 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7500 files added (on-disk size: 8719 KB)
+0009.162 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7600 files added (on-disk size: 8719 KB)
+0009.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.3 MB, 12723 files batched, 1001 (7686) added so far); re-opening (prior size: 8719 KB)
+0010.020 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: size is now: 12.60 MB
+0010.024 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7700 files added (on-disk size: 12909.4 KB)
+0010.028 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7800 files added (on-disk size: 12909.4 KB)
+0010.032 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 7900 files added (on-disk size: 12909.4 KB)
+0010.036 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8000 files added (on-disk size: 12909.4 KB)
+0010.040 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8100 files added (on-disk size: 12909.4 KB)
+0010.044 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8200 files added (on-disk size: 12909.4 KB)
+0010.048 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8300 files added (on-disk size: 12909.4 KB)
+0010.053 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8400 files added (on-disk size: 12909.4 KB)
+0010.057 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8500 files added (on-disk size: 12909.4 KB)
+0010.061 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 12723 files batched, 908 (8594) added so far); re-opening (prior size: 12909.4 KB)
+0011.769 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: size is now: 22.30 MB
+0011.771 (0) A useful amount of data was added after this amount of zip processing: 2.7 s (normalised: 2.7 s, rate: 9592.1 KB/s)
+0011.771 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.677591085434, normalised_time=2.6688554868244, max_time=11.769573926926, data points known=1, max_bytes=26214400)
+0011.773 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8600 files added (on-disk size: 22831.3 KB)
+0011.777 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8700 files added (on-disk size: 22831.3 KB)
+0011.781 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8800 files added (on-disk size: 22831.3 KB)
+0011.785 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip.tmp: 8900 files added (on-disk size: 22831.3 KB)
+0011.786 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (6.4 MB, 330 (8924) files added so far); last ratio: 0.3863; re-opening (prior size: 22831.3 KB)
+0012.201 (0) Zip size is at/near split limit (23.3 MB / 25 MB) - bumping index (from: 1)
+0012.411 (0) Created plugins zip (1) - 23824.1 KB in 4.9 s (4875.3 KB/s) (checksums: sha1: 399fa2cc5808b9e9c769961cbdcd6111d3019375, sha256: 5135ba76255fe9f7b74c0cb9d269d0772441b8fab025ed4a9fb0e1c09a2d7448)
+0012.414 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0012.417 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0012.419 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9200 files added (on-disk size: 0 KB)
+0012.422 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9300 files added (on-disk size: 0 KB)
+0012.424 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9400 files added (on-disk size: 0 KB)
+0012.427 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9500 files added (on-disk size: 0 KB)
+0012.429 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9600 files added (on-disk size: 0 KB)
+0012.432 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9700 files added (on-disk size: 0 KB)
+0012.435 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9800 files added (on-disk size: 0 KB)
+0012.438 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 9900 files added (on-disk size: 0 KB)
+0012.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.6 MB, 12723 files batched, 1001 (9925) added so far); re-opening (prior size: 0 KB)
+0013.369 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: size is now: 2.90 MB
+0013.373 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10000 files added (on-disk size: 2945.2 KB)
+0013.376 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10100 files added (on-disk size: 2945.2 KB)
+0013.379 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10200 files added (on-disk size: 2945.2 KB)
+0013.382 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10300 files added (on-disk size: 2945.2 KB)
+0013.384 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10400 files added (on-disk size: 2945.2 KB)
+0013.387 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10500 files added (on-disk size: 2945.2 KB)
+0013.389 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10600 files added (on-disk size: 2945.2 KB)
+0013.392 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10700 files added (on-disk size: 2945.2 KB)
+0013.395 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10800 files added (on-disk size: 2945.2 KB)
+0013.398 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 10900 files added (on-disk size: 2945.2 KB)
+0013.399 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.2 MB, 12723 files batched, 1001 (10926) added so far); re-opening (prior size: 2945.2 KB)
+0014.022 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: size is now: 3.80 MB
+0014.027 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11000 files added (on-disk size: 3895.4 KB)
+0014.030 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11100 files added (on-disk size: 3895.4 KB)
+0014.034 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11200 files added (on-disk size: 3895.4 KB)
+0014.037 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11300 files added (on-disk size: 3895.4 KB)
+0014.042 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11400 files added (on-disk size: 3895.4 KB)
+0014.046 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11500 files added (on-disk size: 3895.4 KB)
+0014.049 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11600 files added (on-disk size: 3895.4 KB)
+0014.054 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11700 files added (on-disk size: 3895.4 KB)
+0014.059 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11800 files added (on-disk size: 3895.4 KB)
+0014.063 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 11900 files added (on-disk size: 3895.4 KB)
+0014.064 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.4 MB, 12723 files batched, 1001 (11927) added so far); re-opening (prior size: 3895.4 KB)
+0015.263 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: size is now: 17.40 MB
+0015.268 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12000 files added (on-disk size: 17792 KB)
+0015.273 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12100 files added (on-disk size: 17792 KB)
+0015.278 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12200 files added (on-disk size: 17792 KB)
+0015.282 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12300 files added (on-disk size: 17792 KB)
+0015.286 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12400 files added (on-disk size: 17792 KB)
+0015.289 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12500 files added (on-disk size: 17792 KB)
+0015.291 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12600 files added (on-disk size: 17792 KB)
+0015.295 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip.tmp: 12700 files added (on-disk size: 17792 KB)
+0016.107 (0) Created plugins zip (2) - 19399.1 KB in 3.7 s (5249.3 KB/s) (sha1: b9cc2dde346955453d6a184b3baf8945340aff07, sha256: 130be274d9839d340d4341a703b63eb705a6adafa78b1b4c9ce5dcfc070efaf9)
+0016.111 (0) Beginning creation of dump of themes (split every: 25 MB)
+0016.138 (0) Total entities for the zip file: 28 directories, 266 files (0 skipped as non-modified), 3.6 MB
+0016.142 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.145 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0016.433 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-themes.zip.tmp: size is now: 1.10 MB
+0016.450 (0) Created themes zip (0) - 1136.7 KB in 0.3 s (3453.8 KB/s) (sha1: f8ab0751508923c53998129fa4475a821ef24619, sha256: e8ba4c3c180deaa6266194a7b6be39e209f95aa70bd54cbae2211be47a8cf033)
+0016.452 (0) Exclusion option setting (uploads): 
+0016.452 (0) Looking for candidates to backup in: /home/authen57/public_html/hamiltonchristian.school.nz/wp-content/uploads
+0016.454 (0) finding files: 2020: adding to list (1)
+0016.454 (0) finding files: 2018: adding to list (2)
+0016.455 (0) finding files: siteground-optimizer-assets: adding to list (3)
+0016.455 (0) finding files: bbpowerpack: adding to list (4)
+0016.455 (0) finding files: maxmegamenu: adding to list (5)
+0016.456 (0) finding files: bb-theme: adding to list (6)
+0016.456 (0) finding files: bb-plugin: adding to list (7)
+0016.456 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0016.488 (0) Total entities for the zip file: 21 directories, 1178 files (0 skipped as non-modified), 208.8 MB
+0016.493 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.496 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 1178 files batched, 151 (151) added so far); re-opening (prior size: 0 KB)
+0016.841 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads.zip.tmp: size is now: 25.00 MB
+0016.843 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.7 s, rate: 34333.7 KB/s)
+0016.844 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=0.75019788742065, normalised_time=0.74562324262223, max_time=16.842169046402, data points known=1, max_bytes=26214400)
+0016.845 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (1.1 MB, 1 (152) files added so far); last ratio: 0.9924; re-opening (prior size: 25561.4 KB)
+0016.902 (0) Zip size is at/near split limit (26 MB / 25 MB) - bumping index (from: 0)
+0017.139 (0) Created uploads zip (0) - 26659.3 KB in 0.4 s (61117.9 KB/s) (checksums: sha1: 1abe4c7317b23293336712807967f2c551c8b727, sha256: 0819e446b79025cdad6b4b85bdbea3a07dd9e87cbd881c609813d955618a4abe)
+0017.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 1178 files batched, 16 (168) added so far); re-opening (prior size: 0 KB)
+0017.822 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads2.zip.tmp: size is now: 25.20 MB
+0017.824 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 15117.6 KB/s)
+0017.825 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.7311890125275, normalised_time=1.6933952349491, max_time=17.82319188118, data points known=1, max_bytes=26214400)
+0017.827 (0) Zip size is at/near split limit (25.2 MB / 25 MB) - bumping index (from: 1)
+0018.084 (0) Created uploads zip (1) - 25785.3 KB in 0.7 s (37490.5 KB/s) (checksums: sha1: 07fb3445304b35bb3b006abaf2d257cd0fdbbcc1, sha256: 4ef6d4c2f00ae655bc2df3f5281645a25610ff56c231cc4e39b46ce259925eea)
+0018.086 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (40.7 MB, 1178 files batched, 14 (182) added so far); re-opening (prior size: 0 KB)
+0019.387 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads3.zip.tmp: size is now: 39.20 MB
+0019.391 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 1.4 s, rate: 18122.1 KB/s)
+0019.391 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.2979071140289, normalised_time=1.4126417425581, max_time=19.389842033386, data points known=1, max_bytes=26214400)
+0019.392 (0) Zip size is at/near split limit (39.2 MB / 25 MB) - bumping index (from: 2)
+0019.749 (0) Created uploads zip (2) - 40148.5 KB in 1.3 s (30695.4 KB/s) (checksums: sha1: bc81a0e90367443017d6096bdf553007550236d7, sha256: ad7aad757e19861f6accdafa7fe7a2b7043e18f01a626346be68fadd6616d59c)
+0019.751 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads4.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.752 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 1178 files batched, 46 (228) added so far); re-opening (prior size: 0 KB)
+0020.554 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads4.zip.tmp: size is now: 23.20 MB
+0020.557 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 17628.5 KB/s)
+0020.558 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.4638268947601, normalised_time=1.4521956575527, max_time=20.555923938751, data points known=1, max_bytes=26214400)
+0020.559 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (4.6 MB, 2 (230) files added so far); last ratio: 0.9193; re-opening (prior size: 23723.7 KB)
+0020.796 (0) Zip size is at/near split limit (27.6 MB / 25 MB) - bumping index (from: 3)
+0021.076 (0) Created uploads zip (3) - 28279.1 KB in 1 s (26992.5 KB/s) (checksums: sha1: 34c39ddb27b06aa77d7cf173717f49cc6c8733d9, sha256: cfc55d892618a28a3914859bcd183b920ae4a8341a3d8eb8d5620658001a0b1b)
+0021.078 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 1178 files batched, 44 (274) added so far); re-opening (prior size: 0 KB)
+0021.775 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads5.zip.tmp: size is now: 23.50 MB
+0021.838 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 14757.3 KB/s)
+0021.840 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.7454741001129, normalised_time=1.7347364215381, max_time=21.838351011276, data points known=1, max_bytes=26214400)
+0021.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (4 MB, 3 (277) files added so far); last ratio: 0.9346; re-opening (prior size: 24074.6 KB)
+0022.087 (0) Zip size is at/near split limit (27.4 MB / 25 MB) - bumping index (from: 4)
+0022.377 (0) Created uploads zip (4) - 28013.4 KB in 1 s (27680.8 KB/s) (checksums: sha1: 698decaa621921511c398a26b8b23ce508d0d8ca, sha256: 5ef697e188163c7488af449ac5b5330c19f915d51c3b0d752ae3545b88981513)
+0022.379 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.381 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.384 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.387 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.390 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip.tmp: 700 files added (on-disk size: 0 KB)
+0022.391 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 1178 files batched, 447 (724) added so far); re-opening (prior size: 0 KB)
+0023.265 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip.tmp: size is now: 24.20 MB
+0023.267 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11898.9 KB/s)
+0023.267 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.1735908985138, normalised_time=2.1514550666109, max_time=23.265428066254, data points known=1, max_bytes=26214400)
+0023.268 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (1.3 MB, 3 (727) files added so far); last ratio: 0.9593; re-opening (prior size: 24810.7 KB)
+0023.352 (0) Zip size is at/near split limit (24.5 MB / 25 MB) - bumping index (from: 5)
+0023.589 (0) Created uploads zip (5) - 25059.5 KB in 1 s (25678.2 KB/s) (checksums: sha1: 753da668210e3096a1f378c1762144dff811cfbb, sha256: 1922e4b13c7d6848b3ea6e732de623f9e2de54227f12306888a9d0d63d0d2160)
+0023.594 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip.tmp: 800 files added (on-disk size: 0 KB)
+0023.596 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip.tmp: 900 files added (on-disk size: 0 KB)
+0023.599 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 1178 files batched, 225 (952) added so far); re-opening (prior size: 0 KB)
+0024.333 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip.tmp: size is now: 5.70 MB
+0024.353 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 20374.2 KB/s)
+0024.354 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.260281085968, normalised_time=1.2564882881834, max_time=24.352300882339, data points known=1, max_bytes=26214400)
+0024.356 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip.tmp: 1000 files added (on-disk size: 5818.4 KB)
+0024.359 (0) Zip: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip.tmp: 1100 files added (on-disk size: 5818.4 KB)
+0024.576 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip.tmp: size is now: 8.30 MB
+0024.681 (0) Created uploads zip (6) - 8540.7 KB in 1.1 s (7831.8 KB/s) (sha1: 5a3a30d1953172063e85bc733765d521644ef1b0, sha256: 5e3e9b9b47a8043f5557183ea175851d97ed2468dc8d7b0fa5633559a6cfbf11)
+0024.684 (0) Beginning backup of other directories found in the content directory (index: 0)
+0024.684 (0) Exclusion option setting (others): 
+0024.685 (0) Looking for candidates to backup in: /home/authen57/public_html/hamiltonchristian.school.nz/wp-content
+0024.685 (0) finding files: upgrade: adding to list (1)
+0024.685 (0) finding files: themes: skipping: this is the themes directory
+0024.686 (0) finding files: updraft: skipping: this is the updraft directory
+0024.686 (0) finding files: uploads: skipping: this is the uploads directory
+0024.687 (0) finding files: plugins: skipping: this is the plugins directory
+0024.687 (0) finding files: index.php: adding to list (2)
+0024.701 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0024.711 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-others.zip.tmp: size is now: 0.00 MB
+0024.715 (0) Created others zip (0) - 0.3 KB in 0 s (20.9 KB/s) (sha1: 80c7f0b36413113b95005d39b2c3d97e196255ec, sha256: df0d23ddfaaa7111293916c0a643e2eed590af8b70e47d22b96061ac80752771)
+0024.718 (0) Saving backup status to database (elements: 16)
+0024.725 (0) Beginning creation of database dump (WordPress DB)
+0024.726 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0024.727 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0024.740 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpxa_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1246 bytes total)
+0024.742 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0024.778 (0) Table wpxa_options: Total expected rows (approximate): 652
+0024.891 (0) Table wpxa_options: Rows added in this batch (next record: 13421): 630 (uncompressed bytes in this segment=534538) in 0.11 seconds
+0024.895 (0) Table wpxa_options: finishing file(s) (2, 82.2 KB)
+0024.899 (0) Table wpxa_users: Total expected rows (approximate): 0
+0024.910 (0) Table wpxa_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1757) in 0.01 seconds
+0024.913 (0) Table wpxa_users: finishing file(s) (2, 0.8 KB)
+0024.918 (0) Table wpxa_usermeta: Total expected rows (approximate): 101
+0024.929 (0) Table wpxa_usermeta: Rows added in this batch (next record: 144): 125 (uncompressed bytes in this segment=23360) in 0.01 seconds
+0024.932 (0) Table wpxa_usermeta: finishing file(s) (2, 4.7 KB)
+0024.944 (0) Table wpxa_commentmeta: Total expected rows (approximate): 0
+0024.947 (0) Table wpxa_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0024.950 (0) Table wpxa_commentmeta: finishing file(s) (2, 0.4 KB)
+0024.952 (0) Table wpxa_comments: Total expected rows (approximate): 0
+0024.959 (0) Table wpxa_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1681) in 0.01 seconds
+0024.963 (0) Table wpxa_comments: finishing file(s) (2, 0.5 KB)
+0024.975 (0) Table wpxa_links: Total expected rows (approximate): 0
+0024.986 (0) Table wpxa_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1282) in 0.01 seconds
+0024.990 (0) Table wpxa_links: finishing file(s) (2, 0.5 KB)
+0025.004 (0) Table wpxa_ms_snippets: Total expected rows (approximate): 0
+0025.008 (0) Table wpxa_ms_snippets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.00 seconds
+0025.011 (0) Table wpxa_ms_snippets: finishing file(s) (2, 0.4 KB)
+0025.013 (0) Table wpxa_postmeta: Total expected rows (approximate): 4046
+0032.525 (0) Table wpxa_postmeta: Rows added in this batch (next record: 40417): 5057 (uncompressed bytes in this segment=79099576) in 7.51 seconds
+0032.530 (0) Table wpxa_postmeta: finishing file(s) (2, 4957.1 KB)
+0032.532 (0) Table wpxa_posts: Total expected rows (approximate): 1031
+0032.990 (0) Table wpxa_posts: Rows added in this batch (next record: 1433): 1183 (uncompressed bytes in this segment=3449168) in 0.46 seconds
+0032.992 (0) Table wpxa_posts: finishing file(s) (2, 282.8 KB)
+0033.006 (0) Table wpxa_snippets: Total expected rows (approximate): 5
+0033.015 (0) Table wpxa_snippets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2650) in 0.01 seconds
+0033.017 (0) Table wpxa_snippets: finishing file(s) (2, 0.9 KB)
+0033.021 (0) Table wpxa_term_relationships: Total expected rows (approximate): 208
+0033.029 (0) Table wpxa_term_relationships: Rows added in this batch (next record: 100000): 242 (uncompressed bytes in this segment=4339) in 0.01 seconds
+0033.031 (0) Table wpxa_term_relationships: finishing file(s) (2, 1.1 KB)
+0033.035 (0) Table wpxa_term_taxonomy: Total expected rows (approximate): 46
+0033.040 (0) Table wpxa_term_taxonomy: Rows added in this batch (next record: 55): 50 (uncompressed bytes in this segment=2900) in 0.01 seconds
+0033.042 (0) Table wpxa_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0033.044 (0) Table wpxa_termmeta: Total expected rows (approximate): 3
+0033.051 (0) Table wpxa_termmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=836) in 0.01 seconds
+0033.053 (0) Table wpxa_termmeta: finishing file(s) (2, 0.5 KB)
+0033.056 (0) Table wpxa_terms: Total expected rows (approximate): 46
+0033.062 (0) Table wpxa_terms: Rows added in this batch (next record: 55): 50 (uncompressed bytes in this segment=2659) in 0.01 seconds
+0033.065 (0) Table wpxa_terms: finishing file(s) (2, 1 KB)
+0033.076 (0) Table wpxa_fbv: Total expected rows (approximate): 8
+0033.087 (0) Table wpxa_fbv: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=973) in 0.01 seconds
+0033.098 (0) Table wpxa_fbv: finishing file(s) (2, 0.5 KB)
+0033.109 (0) Table wpxa_fbv_attachment_folder: Total expected rows (approximate): 215
+0033.117 (0) Table wpxa_fbv_attachment_folder: Rows added in this batch (next record: 1000): 247 (uncompressed bytes in this segment=3366) in 0.01 seconds
+0033.119 (0) Table wpxa_fbv_attachment_folder: finishing file(s) (2, 0.9 KB)
+0033.126 (0) Table wpxa_gf_draft_submissions: Total expected rows (approximate): 0
+0033.136 (0) Table wpxa_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.01 seconds
+0033.138 (0) Table wpxa_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+0033.146 (0) Table wpxa_gf_entry: Total expected rows (approximate): 0
+0033.159 (0) Table wpxa_gf_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1566) in 0.01 seconds
+0033.161 (0) Table wpxa_gf_entry: finishing file(s) (2, 0.6 KB)
+0033.170 (0) Table wpxa_gf_entry_meta: Total expected rows (approximate): 0
+0033.179 (0) Table wpxa_gf_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=849) in 0.01 seconds
+0033.182 (0) Table wpxa_gf_entry_meta: finishing file(s) (2, 0.4 KB)
+0033.189 (0) Table wpxa_gf_entry_notes: Total expected rows (approximate): 0
+0033.198 (0) Table wpxa_gf_entry_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.01 seconds
+0033.201 (0) Table wpxa_gf_entry_notes: finishing file(s) (2, 0.4 KB)
+0033.208 (0) Table wpxa_gf_form: Total expected rows (approximate): 0
+0033.217 (0) Table wpxa_gf_form: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=643) in 0.01 seconds
+0033.220 (0) Table wpxa_gf_form: finishing file(s) (2, 0.4 KB)
+0033.227 (0) Table wpxa_gf_form_meta: Total expected rows (approximate): 0
+0033.233 (0) Table wpxa_gf_form_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.01 seconds
+0033.236 (0) Table wpxa_gf_form_meta: finishing file(s) (2, 0.4 KB)
+0033.244 (0) Table wpxa_gf_form_revisions: Total expected rows (approximate): 0
+0033.250 (0) Table wpxa_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=674) in 0.01 seconds
+0033.252 (0) Table wpxa_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+0033.260 (0) Table wpxa_gf_form_view: Total expected rows (approximate): 0
+0033.266 (0) Table wpxa_gf_form_view: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.01 seconds
+0033.268 (0) Table wpxa_gf_form_view: finishing file(s) (2, 0.4 KB)
+0033.279 (0) Table wpxa_smush_dir_images: Total expected rows (approximate): 0
+0033.287 (0) Table wpxa_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1105) in 0.01 seconds
+0033.290 (0) Table wpxa_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0033.303 (0) Table wpxa_wpmfs_queue: Total expected rows (approximate): 0
+0033.307 (0) Table wpxa_wpmfs_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=854) in 0.00 seconds
+0033.311 (0) Table wpxa_wpmfs_queue: finishing file(s) (2, 0.4 KB)
+0033.313 (0) Table wpxa_yoast_indexable: Total expected rows (approximate): 542
+0033.355 (0) Table wpxa_yoast_indexable: Rows added in this batch (next record: 737): 579 (uncompressed bytes in this segment=292925) in 0.04 seconds
+0033.360 (0) Table wpxa_yoast_indexable: finishing file(s) (2, 38.8 KB)
+0033.362 (0) Table wpxa_yoast_indexable_hierarchy: Total expected rows (approximate): 170
+0033.365 (0) Table wpxa_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 169 (uncompressed bytes in this segment=3982) in 0.00 seconds
+0033.367 (0) Table wpxa_yoast_indexable_hierarchy: finishing file(s) (2, 1 KB)
+0033.375 (0) Table wpxa_yoast_migrations: Total expected rows (approximate): 17
+0033.384 (0) Table wpxa_yoast_migrations: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1094) in 0.01 seconds
+0033.387 (0) Table wpxa_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0033.394 (0) Table wpxa_yoast_primary_term: Total expected rows (approximate): 0
+0033.401 (0) Table wpxa_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.01 seconds
+0033.404 (0) Table wpxa_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0033.418 (0) Table wpxa_yoast_seo_links: Total expected rows (approximate): 566
+0033.446 (0) Table wpxa_yoast_seo_links: Rows added in this batch (next record: 6501): 566 (uncompressed bytes in this segment=79201) in 0.02 seconds
+0033.449 (0) Table wpxa_yoast_seo_links: finishing file(s) (2, 9.8 KB)
+0033.457 (0) Table wpxa_yoast_seo_meta: Total expected rows (approximate): 272
+0033.467 (0) Table wpxa_yoast_seo_meta: Rows added in this batch (next record: 968): 273 (uncompressed bytes in this segment=4414) in 0.01 seconds
+0033.470 (0) Table wpxa_yoast_seo_meta: finishing file(s) (2, 1.1 KB)
+0033.471 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_options.table.tmpr13422.gz (1/32): adding to final database dump
+0033.489 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_options.table.gz (2/32): adding to final database dump
+0033.490 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_users.table.tmpr4.gz (3/32): adding to final database dump
+0033.491 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_users.table.gz (4/32): adding to final database dump
+0033.494 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_usermeta.table.tmpr145.gz (5/32): adding to final database dump
+0033.496 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_usermeta.table.gz (6/32): adding to final database dump
+0033.496 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_commentmeta.table.tmpr0.gz (7/32): adding to final database dump
+0033.497 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_commentmeta.table.gz (8/32): adding to final database dump
+0033.497 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_comments.table.tmpr0.gz (9/32): adding to final database dump
+0033.498 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_comments.table.gz (10/32): adding to final database dump
+0033.498 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_links.table.tmpr0.gz (11/32): adding to final database dump
+0033.499 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_links.table.gz (12/32): adding to final database dump
+0033.499 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_ms_snippets.table.tmpr0.gz (13/32): adding to final database dump
+0033.500 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_ms_snippets.table.gz (14/32): adding to final database dump
+0033.500 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_postmeta.table.tmpr40418.gz (15/32): adding to final database dump
+0034.981 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_postmeta.table.gz (16/32): adding to final database dump
+0034.984 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_posts.table.tmpr1434.gz (17/32): adding to final database dump
+0035.045 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_posts.table.gz (18/32): adding to final database dump
+0035.046 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_snippets.table.tmpr6.gz (19/32): adding to final database dump
+0035.046 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_snippets.table.gz (20/32): adding to final database dump
+0035.047 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_term_relationships.table.tmpr100001.gz (21/32): adding to final database dump
+0035.047 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_term_relationships.table.gz (22/32): adding to final database dump
+0035.048 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_term_taxonomy.table.tmpr56.gz (23/32): adding to final database dump
+0035.048 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_term_taxonomy.table.gz (24/32): adding to final database dump
+0035.049 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_termmeta.table.tmpr4.gz (25/32): adding to final database dump
+0035.049 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_termmeta.table.gz (26/32): adding to final database dump
+0035.049 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_terms.table.tmpr56.gz (27/32): adding to final database dump
+0035.050 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_terms.table.gz (28/32): adding to final database dump
+0035.050 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_fbv.table.tmpr11.gz (29/32): adding to final database dump
+0035.050 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_fbv.table.gz (30/32): adding to final database dump
+0035.051 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_fbv_attachment_folder.table.tmpr1001.gz (31/32): adding to final database dump
+0035.051 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_fbv_attachment_folder.table.gz (32/32): adding to final database dump
+0035.052 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_draft_submissions.table.tmpr1.gz (33/32): adding to final database dump
+0035.052 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_draft_submissions.table.gz (34/32): adding to final database dump
+0035.052 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_entry.table.tmpr0.gz (35/32): adding to final database dump
+0035.053 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_entry.table.gz (36/32): adding to final database dump
+0035.053 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_entry_meta.table.tmpr0.gz (37/32): adding to final database dump
+0035.053 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_entry_meta.table.gz (38/32): adding to final database dump
+0035.054 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_entry_notes.table.tmpr0.gz (39/32): adding to final database dump
+0035.054 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_entry_notes.table.gz (40/32): adding to final database dump
+0035.055 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form.table.tmpr0.gz (41/32): adding to final database dump
+0035.055 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form.table.gz (42/32): adding to final database dump
+0035.055 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form_meta.table.tmpr0.gz (43/32): adding to final database dump
+0035.056 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form_meta.table.gz (44/32): adding to final database dump
+0035.056 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form_revisions.table.tmpr0.gz (45/32): adding to final database dump
+0035.057 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form_revisions.table.gz (46/32): adding to final database dump
+0035.057 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form_view.table.tmpr0.gz (47/32): adding to final database dump
+0035.057 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_gf_form_view.table.gz (48/32): adding to final database dump
+0035.057 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_smush_dir_images.table.tmpr0.gz (49/32): adding to final database dump
+0035.058 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_smush_dir_images.table.gz (50/32): adding to final database dump
+0035.058 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_wpmfs_queue.table.tmpr0.gz (51/32): adding to final database dump
+0035.059 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_wpmfs_queue.table.gz (52/32): adding to final database dump
+0035.060 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_indexable.table.tmpr738.gz (53/32): adding to final database dump
+0035.068 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_indexable.table.gz (54/32): adding to final database dump
+0035.069 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_indexable_hierarchy.table.tmpr1001.gz (55/32): adding to final database dump
+0035.069 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_indexable_hierarchy.table.gz (56/32): adding to final database dump
+0035.070 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_migrations.table.tmpr19.gz (57/32): adding to final database dump
+0035.070 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_migrations.table.gz (58/32): adding to final database dump
+0035.071 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_primary_term.table.tmpr0.gz (59/32): adding to final database dump
+0035.071 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_primary_term.table.gz (60/32): adding to final database dump
+0035.072 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_seo_links.table.tmpr6502.gz (61/32): adding to final database dump
+0035.074 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_seo_links.table.gz (62/32): adding to final database dump
+0035.074 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_seo_meta.table.tmpr969.gz (63/32): adding to final database dump
+0035.075 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db-table-wpxa_yoast_seo_meta.table.gz (64/32): adding to final database dump
+0035.089 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db.gz: finished writing out complete database file (5360 KB)
+0035.142 (0) Total database tables backed up: 32 (backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db.gz, size: 5513028, sha1: ae44e36ea366d3827594c6957e83948b3b84ca38, sha256: aaf8d7390f9df77bbc2f126dcd3ca9ff986ad84c9381718935a9845f97e7951e)
+0035.148 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0035.148 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0035.149 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip: plugins: This file has not yet been successfully uploaded: will queue
+0035.149 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0035.149 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.150 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.150 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.150 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.151 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.151 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.151 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.151 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-others.zip: others: This file has not yet been successfully uploaded: will queue
+0035.152 (0) backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db.gz: db: This file has not yet been successfully uploaded: will queue
+0035.152 (0) Saving backup history. Total backup size: 256.6 MB
+0035.154 (0) Requesting upload of the files that have not yet been successfully uploaded (13)
+0035.155 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0035.156 (0) No remote despatch: user chose no remote backup service
+0035.156 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins.zip
+0035.157 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins2.zip
+0035.158 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-plugins3.zip
+0035.159 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-themes.zip
+0035.159 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads.zip
+0035.160 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads2.zip
+0035.161 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads3.zip
+0035.162 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads4.zip
+0035.163 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads5.zip
+0035.164 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads6.zip
+0035.165 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-uploads7.zip
+0035.166 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-others.zip
+0035.167 (0) Recording as successfully uploaded: backup_2020-12-07-0732_Hamilton_Christian_School_47f0b4d0a411-db.gz
+0035.168 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0035.168 (0) Resume backup (47f0b4d0a411, 0): finish run
+0035.169 (0) Decremented the semaphore (fd) by 1
+0035.169 (0) Semaphore (fd) unlocked
+0035.169 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0035.171 (0) No email will/can be sent - the user has not configured an email address.
+0035.171 (0) The backup apparently succeeded and is now complete

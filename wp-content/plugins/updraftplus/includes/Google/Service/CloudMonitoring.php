@@ -44,7 +44,7 @@ class Google_Service_CloudMonitoring extends Google_Service
    *
    * @param Google_Client $client
    */
-  public function __construct(Google_Client $client)
+  public function __construct(UDP_Google_Client $client)
   {
     parent::__construct($client);
     $this->servicePath = 'cloudmonitoring/v2beta2/projects/';

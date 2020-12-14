@@ -252,8 +252,9 @@ class Cloudflare {
 			$this->get_path( 'worker' ),
 			'POST',
 			array(
-				'pattern' => untrailingslashit( Helper::get_site_url() ) . '/*',
-				'script' => $this->worker,
+				'pattern'                 => untrailingslashit( Helper::get_site_url() ) . '/*',
+				'script'                  => $this->worker,
+				'request_limit_fail_open' => true,
 			)
 		);
 

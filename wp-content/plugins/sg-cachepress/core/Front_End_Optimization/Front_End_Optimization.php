@@ -167,17 +167,10 @@ class Front_End_Optimization {
 			return;
 		}
 
-		// Get the uploads dir.
-		$upload_dir = wp_upload_dir();
-
-		$base_dir = $upload_dir['basedir'];
-
-		if ( defined( 'UPLOADS' ) ) {
-			$base_dir = ABSPATH . UPLOADS;
-		}
+		$uploads_dir = Helper::get_uploads_dir();
 
 		// Build the assets dir name.
-		$directory = $base_dir . '/siteground-optimizer-assets';
+		$directory = $uploads_dir . '/siteground-optimizer-assets';
 
 		// Check if directory exists and try to create it if not.
 		$is_directory_created = ! is_dir( $directory ) ? $this->create_directory( $directory ) : true;

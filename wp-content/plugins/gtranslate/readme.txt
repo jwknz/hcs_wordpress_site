@@ -3,8 +3,8 @@ Contributors: edo888
 Author: Translate AI Multilingual Solutions
 Tags: translate, translate wordpress, multilingual, translation, translate language, bilingual, localization, translation proxy, localisation, multilanguage, google translate
 Requires at least: 2.8.1
-Tested up to: 5.5
-Stable tag: 2.8.60
+Tested up to: 5.6
+Stable tag: 2.8.61
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://gtranslate.io/?xyz=998#pricing
@@ -252,6 +252,16 @@ If you want us to translate your website professionally or provide you a proofre
 8. User Dashboard
 
 == Changelog ==
+= 2.8.61 =
+* Tested with new WordPress 5.6 version
+* Ground up rebuild of our Translation Proxy cloud network for paid customers, now page translations are 3x faster on average.
+    - New proprietary spec-compliant HTML parser which is 8x faster than PHP SimpleHTMLDom library used by TranslatePress Multilingual and Weglot Translate plugins
+    - In case of invalid HTML, it will be fixed after page translation
+    - New caching layer to cache translated pages, previously only original pages were cached
+    - Optimized caching with option to clear all original and translated page caches
+    - Better error reporting
+    - New top of the line hardware with Intel Xeon multi-core processors with up to 5 Ghz clock speed
+
 = 2.8.60 =
 * Added debug option for WooCommerce Email translation
 

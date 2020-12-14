@@ -15,6 +15,7 @@ class Supercacher_Plugins extends Supercacher {
 		add_action( 'deactivate_plugin', array( $this, 'purge_everything' ) );
 		add_action( 'activate_plugin', array( $this, 'purge_everything' ) );
 		add_action( 'upgrader_process_complete', array( $this, 'purge_everything' ) );
+		add_action( 'revslider_slide_updateSlideFromData_post', array( $this, 'purge_everything' ) );
 	}
 
 }

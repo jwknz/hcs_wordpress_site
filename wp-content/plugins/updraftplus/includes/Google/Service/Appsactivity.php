@@ -51,7 +51,7 @@ class Google_Service_Appsactivity extends Google_Service
    *
    * @param Google_Client $client
    */
-  public function __construct(Google_Client $client)
+  public function __construct(UDP_Google_Client $client)
   {
     parent::__construct($client);
     $this->servicePath = 'appsactivity/v1/';

@@ -4,10 +4,9 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24
+class ComposerStaticInit304b5c0a2c3c2c2be54f29087ff66e78
 {
     public static $files = array (
-        'ce89ac35a6c330c55f4710717db9ff78' => __DIR__ . '/..' . '/kriswallsmith/assetic/src/functions.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         '3919eeb97e98d4648304477f8ef734ba' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/Crypt/Random.php',
         '689b08b7620712b04324ecd7ed167c6b' => __DIR__ . '/..' . '/yahnis-elsts/plugin-update-checker/load-v4p10.php',
@@ -16,7 +15,6 @@ class ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\EventDispatcher\\' => 34,
         ),
         'P' => 
@@ -26,10 +24,6 @@ class ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Component\\Process\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/process',
-        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
@@ -101,20 +95,12 @@ class ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24
             array (
                 0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
             ),
-            'ComponentInstaller' => 
-            array (
-                0 => __DIR__ . '/..' . '/robloach/component-installer/src',
-            ),
         ),
         'A' => 
         array (
             'Aws' => 
             array (
                 0 => __DIR__ . '/..' . '/aws/aws-sdk-php/src',
-            ),
-            'Assetic' => 
-            array (
-                0 => __DIR__ . '/..' . '/kriswallsmith/assetic/src',
             ),
         ),
     );
@@ -148,10 +134,10 @@ class ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit8731b9e0e615bb4ad26770e432aa4d24::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit304b5c0a2c3c2c2be54f29087ff66e78::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit304b5c0a2c3c2c2be54f29087ff66e78::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit304b5c0a2c3c2c2be54f29087ff66e78::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit304b5c0a2c3c2c2be54f29087ff66e78::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -274,8 +274,9 @@ class Modules {
 	 * @var array List of multisite tabs.
 	 */
 	public $multisite_tabs = array(
-		'global' => 'Global Settings',
+		'global'     => 'Global Settings',
 		'defaults'   => 'Per Site Defaults',
+		'cloudflare' => 'CloudFlare',
 	);
 
 	/**

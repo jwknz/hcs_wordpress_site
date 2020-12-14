@@ -289,7 +289,7 @@ class Supercacher {
 	 *
 	 * @return bool                  True if the cache is enabled, false otherwise.
 	 */
-	public static function test_cache( $url, $maybe_dynamic = true ) {
+	public static function test_cache( $url, $maybe_dynamic = true, $is_cloudflare_check = false ) {
 		// Bail if the url is empty.
 		if ( empty( $url ) ) {
 			return;
@@ -298,9 +298,12 @@ class Supercacher {
 		// Add slash at the end of the url.
 		$url = trailingslashit( $url );
 
-		// Bail if the url is excluded.
-		if ( SuperCacher_Helper::is_url_excluded( $url ) ) {
-			return false;
+		// Check if the url is excluded for dynamic checks only.
+		if ( false === $is_cloudflare_check ) {
+			// Bail if the url is excluded.
+			if ( SuperCacher_Helper::is_url_excluded( $url ) ) {
+				return false;
+			}
 		}
 
 		// Make the request.
@@ -318,10 +321,12 @@ class Supercacher {
 			return false;
 		}
 
+		$cache_header = false === $is_cloudflare_check ? 'x-proxy-cache' : 'cf-cache-status';
+
 		// Check if the url has a cache header.
 		if (
-			isset( $headers['x-proxy-cache'] ) &&
-			'HIT' === strtoupper( $headers['x-proxy-cache'] )
+			isset( $headers[ $cache_header ] ) &&
+			'HIT' === strtoupper( $headers[ $cache_header ] )
 		) {
 			return true;
 		}
